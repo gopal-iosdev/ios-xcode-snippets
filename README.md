@@ -22,18 +22,20 @@ Helpful Swift 5 code snippets to use in all your Xcode projects.
 
 ```
 snippetAddObserver              Add observer
+snippetAdhoc                    Checking for build scheme
+snippetAdhocOnly                Checking if the build scheme is ADHOC
 snippetAlert                    Present alert or action sheet with two default actions
 snippetMark                     Simple MARK with a placeholder to complete
 snippetMarksModel               MARKs for models
 snippetMarksUIViewController    MARKs for UIViewController
 snippetPostObserver             Post observer
 snippetSingleton                Generic singleton class
-snippetUserDefaultsVariable     Add a variable of any Type to UserDefaults
 snippetViewDidAppear            viewDidAppear for UIViewController
 snippetViewDidDisappear         viewDidDisappear for UIViewController
 snippetViewDidLoad              viewDidLoad for UIViewController
 snippetViewWillAppear           viewWillAppear for UIViewController
 snippetViewWillDisappear        viewWillDisappear for UIViewController
+snippetWarning                  Useful as a reminder to yourself or others that some work is incomplete.
 ```
 
 ---
