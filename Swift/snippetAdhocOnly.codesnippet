@@ -3,28 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>snippetUserDefaultsVariable</string>
+	<string>snippetAdhocOnly</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>var &lt;#name#&gt;: &lt;#Type#&gt; {
-  get {
-    return &lt;#method#&gt;(forKey: #function)
-  }
-  set {
-    set(newValue, forKey: #function)
-  }
-}</string>
+	<string>#if ADHOC
+&lt;#statements#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A1519E53-062C-4761-A37B-808C752046C1</string>
+	<string>BD776B31-FD40-4895-A9F3-930CD9793988</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Add a variable of any Type to UserDefaults</string>
+	<string>Checking if the build scheme is ADHOC</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>snippetUserDefaultsVariable</string>
+	<string>ADHOC ONLY</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

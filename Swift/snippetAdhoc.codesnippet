@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>snippetViewDidLoad</string>
+	<string>snippetAdhoc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>override func viewDidLoad() {
-  super.viewDidLoad()
-}</string>
+	<string>#if ADHOC
+&lt;#statements#&gt;
+#else
+&lt;#statements#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E9F203F3-98E1-4D99-801E-2E739E7792EB</string>
+	<string>D23C8895-640B-4ED7-8E4C-C5E3C183C194</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>viewDidLoad</string>
+	<string>Checking for build scheme</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>viewDidLoad</string>
+	<string>ADHOC </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
