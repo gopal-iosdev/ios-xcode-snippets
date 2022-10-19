@@ -32,11 +32,6 @@ snippetMarksModel               MARKs for models
 snippetMarksUIViewController    MARKs for UIViewController
 snippetPostObserver             Post observer
 snippetSingleton                Generic singleton class
-snippetViewDidAppear            viewDidAppear for UIViewController
-snippetViewDidDisappear         viewDidDisappear for UIViewController
-snippetViewDidLoad              viewDidLoad for UIViewController
-snippetViewWillAppear           viewWillAppear for UIViewController
-snippetViewWillDisappear        viewWillDisappear for UIViewController
 snippetWarning                  Useful as a reminder to yourself or others that some work is incomplete.
 ```
 
