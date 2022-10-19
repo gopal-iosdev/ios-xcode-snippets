@@ -36,5 +36,3 @@ snippetWarning                  Useful as a reminder to yourself or others that 
 ```
 
 ---
-
-More information about Code Snippets on [this link](https://medium.com/@mjurfest/helpful-code-snippets-for-ios-21aa5ef894de#2720-c476906db172).
