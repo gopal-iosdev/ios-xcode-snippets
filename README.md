@@ -1,20 +1,22 @@
 # iOS Xcode Snippets
 
-Helpful Swift 5 code snippets to use in all your Xcode projects.
+Helpful Swift 5.7 code snippets to use in all your Xcode projects.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/swift-5.2-orange"/>
+  <img src="https://img.shields.io/badge/swift-5.7-orange"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow"/>
 </p>
 
-## How to use?
+## How to copy code snippets to your Xcode ?
 1. Open Finder and type `cmd + shift + G`
 2. Paste ~/Library/Developer/Xcode/UserData/CodeSnippets/ and press "Go" button
 3. The folder* will open, paste all the .codesnippet files
 4. Restart Xcode
-5. Type `snippet` and access the code snippets you just added
 
 *If the folder doesn't exists create it.
+
+## How to use code snippets ?
+- Type `snippet` and access the code snippets you just added
 
 ![](Assets/demo.gif)
 
