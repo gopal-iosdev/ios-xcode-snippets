@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snippetViewFromNIb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension UIView {
+        // We're saying that `T` is eventually going to be a `UIView`.
+        //
+        // It could be a `UIButton`, `UIImageView`, or
+        // an ordinary `UIView` - it doesn't matter.
+        //
+        // Now, we can load any `UIView` or a subclass from a `.nib`.
+        class func fromNib&lt;T: UIView&gt;() -&gt; T {
+            return Bundle(for: T.self).loadNibNamed(
+                String(describing: T.self), owner: nil, options: nil
+            )![0] as! T
+        }
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5FDED66C-EB1C-4E70-9AB6-30618C270120</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Generics UIView Extension To Load From Nib</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView From Nib</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
