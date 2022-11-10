@@ -28,6 +28,22 @@ class PractiseSwiftCodeSnippets: UIViewController {
         }
         #endif
     }
+    
+    
+    extension UIView {
+        // We're saying that `T` is eventually going to be a `UIView`.
+        //
+        // It could be a `UIButton`, `UIImageView`, or
+        // an ordinary `UIView` - it doesn't matter.
+        //
+        // Now, we can load any `UIView` or a subclass from a `.nib`.
+        class func fromNib<T: UIView>() -> T {
+            return Bundle(for: T.self).loadNibNamed(
+                String(describing: T.self), owner: nil, options: nil
+            )![0] as! T
+        }
+    }
+
 }
 
 let practiseSnippet = PractiseSwiftCodeSnippets()
